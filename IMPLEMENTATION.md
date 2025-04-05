@@ -38,6 +38,7 @@ Execute the following command to create the necessary tables in your PostgreSQL 
 
 ```bash
 docker exec -i todo-postgres psql -U admin -d tododb < schema.sql
+```
 
 ### 3. Configure Environment (Optional)
 
