@@ -31,6 +31,7 @@ Open your terminal in the project's root directory and run the following Docker 
 
 ```bash
 docker run --name todo-postgres -e POSTGRES_USER=admin -e POSTGRES_PASSWORD=admin -e POSTGRES_DB=tododb -p 5432:5432 -d postgres:latest
+```
 
 ### 2. Apply Database Schema
 
